@@ -1,0 +1,9 @@
+.photo1{
+    height: auto;
+    width: auto;
+}
+
+.photo{
+    height: fit-content;
+    width: fit-content;
+}

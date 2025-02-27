@@ -1,0 +1,30 @@
+body {
+    height: 100%;
+}
+
+.more-icon {
+    font-size: 24px;
+    margin: 6% 4% 0px 0px;
+}
+
+.details-icon {
+    font-size: 24px;
+    margin-right: 1%;
+    padding-bottom: 2%;
+}
+
+.message-header{
+    position: relative;
+    padding-top: 3%;
+}
+
+#container-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+#container-cards .columns {
+    flex-wrap: wrap;
+    justify-content: center;
+}

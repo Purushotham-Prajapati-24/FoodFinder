@@ -1,0 +1,105 @@
+:root{
+    --main-color: rgba(43, 45, 43, 0);
+}
+
+* {
+    font-family: lato;
+}
+
+body {
+    background-color: rgba(31, 22, 22, 0.906);
+    height: auto !important;
+    min-height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+li {
+    color: rgb(80, 71, 71);
+    list-style: none;
+}
+
+a:hover {
+    color: rgb(139, 194, 228);
+}
+
+.hero .title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #c3c3c3;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(36, 33, 32, 0.744);
+    width: 90%;
+    border-radius: 10px;
+}
+
+.result-display {
+    margin: 12px;
+    border-radius: 20px;
+}
+
+.card-content {
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    box-shadow: 4px 8px 30px rgb(30, 29, 29);
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+#header {
+    background-color: var(--main-color);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#welcome-photo {
+    border-radius: 30px;
+    box-shadow: 4px 8px 30px rgb(30, 29, 29);
+}
+
+#application {
+    margin: auto;
+    max-width: 1200px;
+}
+
+#application .column {
+    background-color: var(--main-color);
+    border-radius: 20px;
+    max-width: 570px;
+    margin: auto;
+    height: 90px;
+    padding-top: 23px;
+}
+
+#application input {
+    padding: 13px;
+    width: 443px;
+}
+
+@media screen and (min-width: 769px) {
+    form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .search-section {
+        flex-direction: row;
+    }
+}
